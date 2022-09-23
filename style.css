@@ -1,0 +1,170 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+
+
+body{
+   background: rgb(207, 193, 204);
+   font-size: 16px;
+   font-weight: normal;
+   /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif; */
+    font-family: 'Oswald', sans-serif;
+}
+
+a{
+   color: rgb(64, 97, 131);
+   text-decoration: none;
+}
+
+a:hover{
+   text-decoration: underline;
+}
+
+a:active{
+   color: blue;
+}
+
+a:visited{
+   color: black;
+}
+.avatar{
+   max-width: 300px;
+   max-height: 250px;
+   border-radius: 20px;
+   box-shadow: 8px 14px 20px rgba(126, 126, 126) ;
+}
+
+.info p{
+   color: rgb(51, 51, 51);
+   margin: 0;
+   font-style: italic;
+}
+.info{
+   margin-bottom: 15px;
+   display: flex;
+}
+
+@media (max-width: 700px) {
+   .info{
+      text-align: center;
+      display: block;
+   }
+   
+}
+
+.bg1, .bg2, .bg3{
+   box-shadow: 8px 14px 20px rgba(126, 126, 126) ;
+}
+
+.bg1{
+   background-color: rgba(255, 228, 196, 0.418);
+}
+.bg2{
+   background-color: rgba(222, 184, 135, 0.397);
+}
+.bg3{
+   background-color: rgba(85, 110, 85, 0.253);
+}
+.card{
+   margin-bottom: 15px;
+   padding: 8px 12px;
+   border-radius: 10px ;
+}
+.card h2{
+   margin-bottom: 10px ;
+}
+
+.list{
+   padding: 0 15px;
+}
+.list li{
+   margin-bottom: 5px;
+   color: rgb(51 , 51, 51);
+}
+
+.table1{
+   width: 100%;
+}
+.table1 td{
+   padding-bottom: 8px;
+}
+
+.table1 td:nth-child(3){
+   color: rgb(73, 73, 73);
+}
+.table1 td:nth-child(2){
+   color: rgb(73, 73, 73);
+}
+
+.contact h2{
+   text-align: center;
+}
+
+.form-group label{
+   display: block;
+   color: rgb(73, 73, 73);;
+}
+.form-group input, .form-group textarea {
+   width: 100%;
+   box-sizing: border-box;
+   border: none;
+   background: transparent;
+   border-bottom:  1px solid rgb(51 , 51, 51);
+   color:black;
+   padding: 15px 0 10px;
+   outline: none;
+   font-family: inherit;
+}
+.row{
+   display: flex;
+   margin-bottom: 20px;
+}
+.row > .form-group{
+   width: 50%;
+   margin-right: 0px;
+}
+.row > .form-group:first-child{
+   margin-right: 20px;
+}
+.info2{
+   margin-left: 15px;
+   
+}
+#textarea{
+   max-width: 800px;
+   min-width: 500px;
+   
+}
+.button{
+   background-color: black;
+   margin-top: 5px;
+   padding: 15px 25px;
+   color: white;
+   border: none;
+   font-family: inherit;
+}
+.button:hover{
+   opacity: 0.8;
+}
+
+
+.container{
+   max-width: 800px;
+   padding-top: 30px;
+   margin: auto;
+}
+
+/* .position{
+   position: relative;
+   border: 3px solid black;
+   margin-top: 40px;
+   padding: 20px;
+   height: 400px;
+}
+.box{
+   position: absolute;
+   right: 0px;
+   width: 50px;
+   height: 50px;
+   background:  green;
+} */
